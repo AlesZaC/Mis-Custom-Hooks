@@ -1,5 +1,9 @@
-#Notas
+# USEFECTH
 
-Este reporsitorio contiene varios customHooks para ayudarme y para quien le sirva estos hooks.
+EJEMPLO:
 
-tambien es que no quiero volver a escribirlo
+````
+const url = 'enpoint de una api';
+const { data:null, loading:true, error:null }= useFetch(url);
+
+````
