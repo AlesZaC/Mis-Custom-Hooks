@@ -1,5 +1,17 @@
-#Notas
+# USEFORM
 
-Este reporsitorio contiene varios customHooks para ayudarme y para quien le sirva estos hooks.
+EJEMPLO:
 
-tambien es que no quiero volver a escribirlo
+````
+const initialForm ={
+ 
+ name:'',
+ age: 0,
+ email:'',
+
+}
+
+const [formValues , handleInputChange,reset ] = useForm(initialForm);
+
+
+````
